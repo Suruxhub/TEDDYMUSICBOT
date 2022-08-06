@@ -4,35 +4,35 @@ from config import MUSIC_BOT_NAME as BOT_NAME
 
 BOT_USERNAME = app.username
 START_TEXT = f"""
-✨ **Hello MENTION !**
+🦋 **Hᴇʟʟᴏ MENTION !**
 
-**You can use [{BOT_NAME}](https://t.me/{BOT_USERNAME}) to play Music or Videos in your Group Video Chat.**
+**Yᴏᴜ ᴄᴀɴ ᴜsᴇ [{BOT_NAME}](https://t.me/{BOT_USERNAME}) ᴛᴏ ᴘʟᴀʏ Mᴜsɪᴄ ᴏʀ Vɪᴅᴇᴏs ɪɴ ʏᴏᴜʀ Gʀᴏᴜᴘ Vɪᴅᴇᴏ Cʜᴀᴛ.**
 
-💡 **Find out all the Bot's commands and how they work by clicking on the ➤ 📚 Commands button**
+🖤 **Fɪɴᴅ ᴏᴜᴛ ᴀʟʟ ᴛʜᴇ Bᴏᴛ's ᴄᴏᴍᴍᴀɴᴅs ᴀɴᴅ ʜᴏᴡ ᴛʜᴇʏ ᴡᴏʀᴋ ʙʏ ᴄʟɪᴄᴋɪɴɢ ᴏɴ ᴛʜᴇ ➤ 📚 Cᴏᴍᴍᴀɴᴅs ʙᴜᴛᴛᴏɴ**
 """
 
 COMMANDS_TEXT = f"""
-✨ **Hello MENTION !**
+✨ **Hᴇʟʟᴏ MENTION !**
 
-**Click on the buttons below to know my commands.**
+**Cʟɪᴄᴋ ᴏɴ ᴛʜᴇ ʙᴜᴛᴛᴏɴs ʙᴇʟᴏᴡ ᴛᴏ ᴋɴᴏᴡ ᴍʏ ᴄᴏᴍᴍᴀɴᴅs.**
 """
 
 START_BUTTON_GROUP = InlineKeyboardMarkup(
     [   
         [
             InlineKeyboardButton(
-                text="📚 Commands", callback_data="command_menu"
+                text="📚 Cᴏᴍᴍᴀɴᴅs", callback_data="command_menu"
             ),
             InlineKeyboardButton(
-                text="🔧 Settings", callback_data="settings_helper"
+                text="🔧 Sᴇᴛᴛɪɴɢs", callback_data="settings_helper"
             ),                                   
         ],
         [
             InlineKeyboardButton(
-                text="📣 Updates Channel", url="https://t.me/TechZBots"
+                text="🪄 Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ", url="https://t.me/Teddy_bot_updates"
             ),
             InlineKeyboardButton(
-                text="💬 Support Group", url="https://t.me/TechZBots_Support"
+                text="💬 Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ", url="https://t.me/Teddysupport"
             ),                       
         ],        
     ]
@@ -41,20 +41,20 @@ START_BUTTON_GROUP = InlineKeyboardMarkup(
 START_BUTTON_PRIVATE = InlineKeyboardMarkup(
     [   [
             InlineKeyboardButton(
-                text="➕ Add me to Group ➕", url=f"https://t.me/{BOT_USERNAME}?startgroup=true"
+                text="➕ Aᴅᴅ ᴍᴇ ᴛᴏ Gʀᴏᴜᴘ ➕", url=f"https://t.me/{BOT_USERNAME}?startgroup=true"
             ),            
         ],
         [   
             InlineKeyboardButton(
-                text="📚 Commands", callback_data="command_menu"
+                text="📚 Cᴏᴍᴍᴀɴᴅs", callback_data="command_menu"
             ),                       
         ],
         [
             InlineKeyboardButton(
-                text="📣 Updates Channel", url="https://t.me/TechZBots"
+                text="🪄 Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ", url="https://t.me/Teddy_bot_updates"
             ),
             InlineKeyboardButton(
-                text="💬 Support Group", url="https://t.me/TechZBots_Support"
+                text="💬 Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ", url="https://t.me/Teddysupport"
             ),                       
         ],        
     ]
@@ -63,26 +63,26 @@ START_BUTTON_PRIVATE = InlineKeyboardMarkup(
 COMMANDS_BUTTON_USER = InlineKeyboardMarkup(
     [   [
             InlineKeyboardButton(
-                text="Admin Commands", callback_data="admin_cmd"
+                text="📍Aᴅᴍɪɴ ᴄᴏᴍᴍᴀɴᴅs", callback_data="admin_cmd"
             ),
             InlineKeyboardButton(
-                text="Bot Commands", callback_data="bot_cmd"
+                text="🎮Bᴏᴛ Cᴏᴍᴍᴀɴᴅs", callback_data="bot_cmd"
             ),            
         ],
         [
             InlineKeyboardButton(
-                text="Play Commands", callback_data="play_cmd"
+                text="🎶Pʟᴀʏ Cᴏᴍᴍᴀɴᴅs", callback_data="play_cmd"
             ),            
             InlineKeyboardButton(
-                text="Extra Commands", url="https://telegra.ph/SiestaXMusic-Commands-03-13-2"
+                text="🍭Exᴛʀᴀ Cᴏᴍᴍᴀɴᴅs", url="https://telegra.ph/SiestaXMusic-Commands-03-13-2"
             ),                                   
         ],
         [
             InlineKeyboardButton(
-                text="↪️ Back", callback_data="command_menu"
+                text="↪️ Bᴀᴄᴋ", callback_data="command_menu"
             ),
             InlineKeyboardButton(
-                text="🔄 Close", callback_data="close_btn"
+                text="🔄 Cʟᴏsᴇ", callback_data="close_btn"
             ),            
         ],                
     ]
@@ -91,31 +91,31 @@ COMMANDS_BUTTON_USER = InlineKeyboardMarkup(
 COMMANDS_BUTTON_SUDO = InlineKeyboardMarkup(
     [   [
             InlineKeyboardButton(
-                text="Admin Commands", callback_data="admin_cmd"
+                text="📍Aᴅᴍɪɴ ᴄᴏᴍᴍᴀɴᴅs", callback_data="admin_cmd"
             ),
             InlineKeyboardButton(
-                text="Bot Commands", callback_data="bot_cmd"
+                text="🎮Bᴏᴛ Cᴏᴍᴍᴀɴᴅs", callback_data="bot_cmd"
             ),            
         ],
         [
             InlineKeyboardButton(
-                text="Play Commands", callback_data="play_cmd"
+                text="🎶Pʟᴀʏ Cᴏᴍᴍᴀɴᴅs", callback_data="play_cmd"
             ),
             InlineKeyboardButton(
-                text="Sudo Commands", url="https://telegra.ph/SiestaXMusic-Commands-03-13"
+                text="🚩Sᴜᴅᴏ Cᴏᴍᴍᴀɴᴅs", url="https://telegra.ph/SiestaXMusic-Commands-03-13"
             ),            
         ],
         [
             InlineKeyboardButton(
-                text="Extra Commands", url="https://telegra.ph/SiestaXMusic-Commands-03-13-2"
+                text="🍭Exᴛʀᴀ Cᴏᴍᴍᴀɴᴅs", url="https://telegra.ph/SiestaXMusic-Commands-03-13-2"
             ),                                   
         ],
         [
             InlineKeyboardButton(
-                text="↪️ Back", callback_data="command_menu"
+                text="↪️ Bᴀᴄᴋ", callback_data="command_menu"
             ),
             InlineKeyboardButton(
-                text="🔄 Close", callback_data="close_btn"
+                text="🔄 Cʟᴏsᴇ", callback_data="close_btn"
             ),            
         ],                
     ]
@@ -124,10 +124,10 @@ COMMANDS_BUTTON_SUDO = InlineKeyboardMarkup(
 BACK_BUTTON = InlineKeyboardMarkup(
     [   [
             InlineKeyboardButton(
-                text="↪️ Back", callback_data="advanced_cmd"
+                text="↪️ Bᴀᴄᴋ", callback_data="advanced_cmd"
             ),
             InlineKeyboardButton(
-                text="🔄 Close", callback_data="close_btn"
+                text="🔄 Cʟᴏsᴇ", callback_data="close_btn"
             ),            
         ],                        
     ]
@@ -136,15 +136,15 @@ BACK_BUTTON = InlineKeyboardMarkup(
 SUDO_BACK_BUTTON = InlineKeyboardMarkup(
     [   [
             InlineKeyboardButton(
-                text="Sudo Commands", url="https://telegra.ph/SiestaXMusic-Commands-03-13"
+                text="🚩Sᴜᴅᴏ Cᴏᴍᴍᴀɴᴅss", url="https://telegra.ph/SiestaXMusic-Commands-03-13"
             ),                        
         ],
         [
             InlineKeyboardButton(
-                text="↪️ Back", callback_data="advanced_cmd"
+                text="↪️ Bᴀᴄᴋ", callback_data="advanced_cmd"
             ),
             InlineKeyboardButton(
-                text="🔄 Close", callback_data="close_btn"
+                text="🔄 Cʟᴏsᴇ", callback_data="close_btn"
             ),            
         ],                        
     ]
@@ -152,34 +152,33 @@ SUDO_BACK_BUTTON = InlineKeyboardMarkup(
 
 
 ADMIN_TEXT = f"""
-✅--**Admin Commands:**--
+✅--**Aᴅᴍɪɴ Cᴏᴍᴍᴀɴᴅs:**--
 
-c stands for channel play.
+ᴄ sᴛᴀɴᴅs ғᴏʀ ᴄʜᴀɴɴᴇʟ ᴘʟᴀʏ.
 
-/pause or /cpause - Pause the playing music.
-/resume or /cresume- Resume the paused music.
-/mute or /cmute- Mute the playing music.
-/unmute or /cunmute- Unmute the muted music.
-/skip or /cskip- Skip the current playing music.
-/stop or /cstop- Stop the playing music.
-/shuffle or /cshuffle- Randomly shuffles the queued playlist.
+/pause ᴏʀ /cpause - Pᴀᴜsᴇ ᴛʜᴇ ᴘʟᴀʏɪɴɢ ᴍᴜsɪᴄ.
+/resume ᴏʀ /cresume - Rᴇsᴜᴍᴇ ᴛʜᴇ ᴘᴀᴜsᴇᴅ ᴍᴜsɪᴄ.
+/mute ᴏʀ /cmute - Mᴜᴛᴇ ᴛʜᴇ ᴘʟᴀʏɪɴɢ ᴍᴜsɪᴄ.
+/unmute ᴏʀ /cunmute - Uɴᴍᴜᴛᴇ ᴛʜᴇ ᴍᴜᴛᴇᴅ ᴍᴜsɪᴄ.
+/skip ᴏʀ /cskip - Sᴋɪᴘ ᴛʜᴇ ᴄᴜʀʀᴇɴᴛ ᴘʟᴀʏɪɴɢ ᴍᴜsɪᴄ.
+/stop ᴏʀ /cstop - Sᴛᴏᴘ ᴛʜᴇ ᴘʟᴀʏɪɴɢ ᴍᴜsɪᴄ.
+/shuffle ᴏʀ /cshuffle - Rᴀɴᴅᴏᴍʟʏ sʜᴜғғʟᴇs ᴛʜᴇ ᴏ̨ᴜᴇᴜᴇᴅ ᴘʟᴀʏʟɪsᴛ.
 
-✅--**Specific Skip:**--
-/skip or /cskip [Number(example: 3)] 
-    - Skips music to a the specified queued number. Example: /skip 3 will skip music to third queued music and will ignore 1 and 2 music in queue.
+✅--**Sᴘᴇᴄɪғɪᴄ Sᴋɪᴘ:**--
+/skip ᴏʀ /cskip [Nᴜᴍʙᴇʀ(ᴇxᴀᴍᴘʟᴇ: 3)] 
+    - Sᴋɪᴘs ᴍᴜsɪᴄ ᴛᴏ ᴀ ᴛʜᴇ sᴘᴇᴄɪғɪᴇᴅ ᴏ̨ᴜᴇᴜᴇᴅ ɴᴜᴍʙᴇʀ. Exᴀᴍᴘʟᴇ: /skip 3 ᴡɪʟʟ sᴋɪᴘ ᴍᴜsɪᴄ ᴛᴏ ᴛʜɪʀᴅ ᴏ̨ᴜᴇᴜᴇᴅ ᴍᴜsɪᴄ ᴀɴᴅ ᴡɪʟʟ ɪɢɴᴏʀᴇ 1 ᴀɴᴅ 2 ᴍᴜsɪᴄ ɪɴ ᴏ̨ᴜᴇᴜᴇ.
 
-✅--**Loop Play:**--
-/loop or /cloop [enable/disable] or [Numbers between 1-10] 
-    - When activated, bot loops the current playing music to 1-10 times on voice chat. Default to 10 times.
-
+✅--**Lᴏᴏᴘ Pʟᴀʏ:**--
+/loop ᴏʀ /cloop [ᴇɴᴀʙʟᴇ/ᴅɪsᴀʙʟᴇ] ᴏʀ [Nᴜᴍʙᴇʀs ʙᴇᴛᴡᴇᴇɴ 1-10] 
+    - Wʜᴇɴ ᴀᴄᴛɪᴠᴀᴛᴇᴅ, ʙᴏᴛ ʟᴏᴏᴘs ᴛʜᴇ ᴄᴜʀʀᴇɴᴛ ᴘʟᴀʏɪɴɢ ᴍᴜsɪᴄ ᴛᴏ 1-10 ᴛɪᴍᴇs ᴏɴ ᴠᴏɪᴄᴇ ᴄʜᴀᴛ. Dᴇғᴀᴜʟᴛ ᴛᴏ 10 ᴛɪᴍᴇs.
 """
 AUTH_TEXT = """
-✅--**Auth Users:**--
-Auth Users can use admin commands without admin rights in your chat.
+✅--**Aᴜᴛʜ Usᴇʀs:**--
+Aᴜᴛʜ Usᴇʀs ᴄᴀɴ ᴜsᴇ ᴀᴅᴍɪɴ ᴄᴏᴍᴍᴀɴᴅs ᴡɪᴛʜᴏᴜᴛ ᴀᴅᴍɪɴ ʀɪɢʜᴛs ɪɴ ʏᴏᴜʀ ᴄʜᴀᴛ.
 
-/auth [Username] - Add a user to AUTH LIST of the group.
-/unauth [Username] - Remove a user from AUTH LIST of the group.
-/authusers - Check AUTH LIST of the group.
+/auth [Usᴇʀɴᴀᴍᴇ] - Aᴅᴅ ᴀ ᴜsᴇʀ ᴛᴏ AUTH LIST ᴏғ ᴛʜᴇ ɢʀᴏᴜᴘ.
+/unauth [Usᴇʀɴᴀᴍᴇ] - Rᴇᴍᴏᴠᴇ ᴀ ᴜsᴇʀ ғʀᴏᴍ AUTH LIST ᴏғ ᴛʜᴇ ɢʀᴏᴜᴘ.
+/authusers - Cʜᴇᴄᴋ AUTH LIST ᴏғ ᴛʜᴇ ɢʀᴏᴜᴘ.
 """
 
 AUTH_BACK_BUTTON = InlineKeyboardMarkup(
@@ -195,59 +194,59 @@ AUTH_BACK_BUTTON = InlineKeyboardMarkup(
 )
 
 BOT_TEXT = """
-✅--**Bot Commands:**--
+✅--**Bᴏᴛ Cᴏᴍᴍᴀɴᴅs:**--
 
-/stats - Get Top 10 Tracks Global Stats, Top 10 Users of bot, Top 10 Chats on bot, Top 10 Played in a chat etc etc.
+/stats - Gᴇᴛ Tᴏᴘ 10 Tʀᴀᴄᴋs Gʟᴏʙᴀʟ Sᴛᴀᴛs, Tᴏᴘ 10 Usᴇʀs ᴏғ ʙᴏᴛ, Tᴏᴘ 10 Cʜᴀᴛs ᴏɴ ʙᴏᴛ, Tᴏᴘ 10 Pʟᴀʏᴇᴅ ɪɴ ᴀ ᴄʜᴀᴛ ᴇᴛᴄ ᴇᴛᴄ.
 
-/sudolist - Check Sudo Users of Yukki Music Bot
+/sudolist - Cʜᴇᴄᴋ Sᴜᴅᴏ Usᴇʀs ᴏғ Yᴜᴋᴋɪ Mᴜsɪᴄ Bᴏᴛ
 
-/lyrics [Music Name] - Searches Lyrics for the particular Music on web.
+/lyrics [Mᴜsɪᴄ Nᴀᴍᴇ] - Sᴇᴀʀᴄʜᴇs Lʏʀɪᴄs ғᴏʀ ᴛʜᴇ ᴘᴀʀᴛɪᴄᴜʟᴀʀ Mᴜsɪᴄ ᴏɴ ᴡᴇʙ.
 
-/song [Track Name] or [YT Link] - Download any track from youtube in mp3 or mp4 formats.
+/song [Tʀᴀᴄᴋ Nᴀᴍᴇ] ᴏʀ [YT Lɪɴᴋ] - Dᴏᴡɴʟᴏᴀᴅ ᴀɴʏ ᴛʀᴀᴄᴋ ғʀᴏᴍ ʏᴏᴜᴛᴜʙᴇ ɪɴ ᴍᴘ3 ᴏʀ ᴍᴘ4 ғᴏʀᴍᴀᴛs.
 
-c stands for channel play.
-/queue or /cqueue- Check Queue List of Music.
+ᴄ sᴛᴀɴᴅs ғᴏʀ ᴄʜᴀɴɴᴇʟ ᴘʟᴀʏ.
+/queue ᴏʀ /cqueue - Cʜᴇᴄᴋ Qᴜᴇᴜᴇ Lɪsᴛ ᴏғ Mᴜsɪᴄ.
 """
 
 PLAY_TEXT = """
-✅--**Play Commands:**--
+✅--**Pʟᴀʏ Cᴏᴍᴍᴀɴᴅs:**--
 
-Available Commands = play , vplay , cplay
+Aᴠᴀɪʟᴀʙʟᴇ Cᴏᴍᴍᴀɴᴅs = ᴘʟᴀʏ , ᴠᴘʟᴀʏ , ᴄᴘʟᴀʏ
 
-ForcePlay Commands = playforce , vplayforce , cplayforce
+FᴏʀᴄᴇPʟᴀʏ Cᴏᴍᴍᴀɴᴅs = ᴘʟᴀʏғᴏʀᴄᴇ , ᴠᴘʟᴀʏғᴏʀᴄᴇ , ᴄᴘʟᴀʏғᴏʀᴄᴇ
 
-c stands for channel play.
-v stands for video play.
-force stands for force play.
+ᴄ sᴛᴀɴᴅs ғᴏʀ ᴄʜᴀɴɴᴇʟ ᴘʟᴀʏ.
+ᴠ sᴛᴀɴᴅs ғᴏʀ ᴠɪᴅᴇᴏ ᴘʟᴀʏ.
+ғᴏʀᴄᴇ sᴛᴀɴᴅs ғᴏʀ ғᴏʀᴄᴇ ᴘʟᴀʏ.
 
-/play or /vplay or /cplay  - Bot will start playing your given query on voice chat or Stream live links on voice chats.
+/play ᴏʀ /vplay ᴏʀ /cplay  - Bᴏᴛ ᴡɪʟʟ sᴛᴀʀᴛ ᴘʟᴀʏɪɴɢ ʏᴏᴜʀ ɢɪᴠᴇɴ ᴏ̨ᴜᴇʀʏ ᴏɴ ᴠᴏɪᴄᴇ ᴄʜᴀᴛ ᴏʀ Sᴛʀᴇᴀᴍ ʟɪᴠᴇ ʟɪɴᴋs ᴏɴ ᴠᴏɪᴄᴇ ᴄʜᴀᴛs.
 
-/playforce or /vplayforce or /cplayforce -  Force Play stops the current playing track on voice chat and starts playing the searched track instantly without disturbing/clearing queue.
+/playforce ᴏʀ /vplayforce ᴏʀ /cplayforce -  Fᴏʀᴄᴇ Pʟᴀʏ sᴛᴏᴘs ᴛʜᴇ ᴄᴜʀʀᴇɴᴛ ᴘʟᴀʏɪɴɢ ᴛʀᴀᴄᴋ ᴏɴ ᴠᴏɪᴄᴇ ᴄʜᴀᴛ ᴀɴᴅ sᴛᴀʀᴛs ᴘʟᴀʏɪɴɢ ᴛʜᴇ sᴇᴀʀᴄʜᴇᴅ ᴛʀᴀᴄᴋ ɪɴsᴛᴀɴᴛʟʏ ᴡɪᴛʜᴏᴜᴛ ᴅɪsᴛᴜʀʙɪɴɢ/ᴄʟᴇᴀʀɪɴɢ ᴏ̨ᴜᴇᴜᴇ.
 
-/channelplay [Chat username or id] or [Disable] - Connect channel to a group and stream music on channel's voice chat from your group.
+/channelplay [Cʜᴀᴛ ᴜsᴇʀɴᴀᴍᴇ ᴏʀ ɪᴅ] ᴏʀ [Dɪsᴀʙʟᴇ] - Cᴏɴɴᴇᴄᴛ ᴄʜᴀɴɴᴇʟ ᴛᴏ ᴀ ɢʀᴏᴜᴘ ᴀɴᴅ sᴛʀᴇᴀᴍ ᴍᴜsɪᴄ ᴏɴ ᴄʜᴀɴɴᴇʟ's ᴠᴏɪᴄᴇ ᴄʜᴀᴛ ғʀᴏᴍ ʏᴏᴜʀ ɢʀᴏᴜᴘ.
 
 
-✅--**Bot's Server Playlists:**--
-/playlist  - Check Your Saved Playlist On Servers.
-/deleteplaylist - Delete any saved music in your playlist
-/play  - Start playing Your Saved Playlist from Servers.
+💠 --**Bᴏᴛ's Sᴇʀᴠᴇʀ Pʟᴀʏʟɪsᴛs:**--
+/playlist  - Cʜᴇᴄᴋ Yᴏᴜʀ Sᴀᴠᴇᴅ Pʟᴀʏʟɪsᴛ Oɴ Sᴇʀᴠᴇʀs.
+/deleteplaylist - Dᴇʟᴇᴛᴇ ᴀɴʏ sᴀᴠᴇᴅ ᴍᴜsɪᴄ ɪɴ ʏᴏᴜʀ ᴘʟᴀʏʟɪsᴛ
+/play  - Sᴛᴀʀᴛ ᴘʟᴀʏɪɴɢ Yᴏᴜʀ Sᴀᴠᴇᴅ Pʟᴀʏʟɪsᴛ ғʀᴏᴍ Sᴇʀᴠᴇʀs.
 """
 
 
 BASIC_TEXT = """
-💠 **Basic Commands:**
+💠 **Bᴀsɪᴄ Cᴏᴍᴍᴀɴᴅs:**
 
-/start - Start the bot
+/start - Sᴛᴀʀᴛ ᴛʜᴇ ʙᴏᴛ
 
-/help - Get help message
+/help - Gᴇᴛ ʜᴇʟᴘ ᴍᴇssᴀɢᴇ
 
-/play - Play songs or videos in vc
+/play - Pʟᴀʏ sᴏɴɢs ᴏʀ ᴠɪᴅᴇᴏs ɪɴ ᴠᴄ
 
-/vplay - Play video in VC
+/vplay - Pʟᴀʏ ᴠɪᴅᴇᴏ ɪɴ VC
 
-/settings - Check Settings of bot in your group
+/settings - Cʜᴇᴄᴋ Sᴇᴛᴛɪɴɢs ᴏғ ʙᴏᴛ ɪɴ ʏᴏᴜʀ ɢʀᴏᴜᴘ
 
-**Some Useful Commands :** 
+**Sᴏᴍᴇ Usᴇғᴜʟ Cᴏᴍᴍᴀɴᴅs :** 
 
 /pause /resume /skip /end /loop /shuffle
 """
@@ -255,10 +254,10 @@ BASIC_TEXT = """
 BASIC_BACK_BUTTON = InlineKeyboardMarkup(
     [   [
             InlineKeyboardButton(
-                text="↪️ Back", callback_data="command_menu"
+                text="↪️ Bᴀᴄᴋ", callback_data="command_menu"
             ),
             InlineKeyboardButton(
-                text="🔄 Close", callback_data="close_btn"
+                text="🔄 Cʟᴏsᴇ", callback_data="close_btn"
             ),            
         ],                        
     ]
@@ -267,15 +266,15 @@ BASIC_BACK_BUTTON = InlineKeyboardMarkup(
 ADMIN_BACK_BUTTON = InlineKeyboardMarkup(
     [   [
             InlineKeyboardButton(
-                text="Auth Commands", callback_data="auth_cmds"
+                text="📛Aᴜᴛʜ Cᴏᴍᴍᴀɴᴅs", callback_data="auth_cmds"
             ),                        
         ],
         [
             InlineKeyboardButton(
-                text="↪️ Back", callback_data="command_menu"
+                text="↪️ Bᴀᴄᴋ", callback_data="command_menu"
             ),
             InlineKeyboardButton(
-                text="🔄 Close", callback_data="close_btn"
+                text="🔄 Cʟᴏsᴇ", callback_data="close_btn"
             ),            
         ],                        
     ]
@@ -284,20 +283,20 @@ ADMIN_BACK_BUTTON = InlineKeyboardMarkup(
 COMMAND_MENU_BUTTON = InlineKeyboardMarkup(
     [   [
             InlineKeyboardButton(
-                text="🔍 Basic Commands", callback_data="basic_cmd"
+                text="🔍 Bᴀsɪᴄ Cᴏᴍᴍᴀɴᴅs", callback_data="basic_cmd"
             ),                                   
         ],
         [
             InlineKeyboardButton(
-                text="📚 Advanced Commands", callback_data="advanced_cmd"
+                text="📚 Aᴅᴠᴀɴᴄᴇᴅ Cᴏᴍᴍᴀɴᴅs", callback_data="advanced_cmd"
             ),
         ],
         [
             InlineKeyboardButton(
-                text="↪️ Back", callback_data="open_start_menu"
+                text="↪️ Bᴀᴄᴋ", callback_data="open_start_menu"
             ),
             InlineKeyboardButton(
-                text="🔄 Close", callback_data="close_btn"
+                text="🔄 Cʟᴏsᴇ", callback_data="close_btn"
             ),            
         ],                        
     ]
