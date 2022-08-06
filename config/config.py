@@ -45,7 +45,7 @@ SONG_DOWNLOAD_DURATION = int(
 LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", "-1001212045298"))
 
 # A name for your Music bot.
-MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "SOPHIAXMUSIC")
+MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "TEDDYMUSICBOT")
 
 # Your User ID.
 OWNER_ID = list(
@@ -75,14 +75,14 @@ AUTO_LEAVE_ASSISTANT_TIME = int(
 
 # Time after which bot will suggest random chats about bot commands.
 AUTO_SUGGESTION_TIME = int(
-    getenv("AUTO_SUGGESTION_TIME", "5400")
+    getenv("AUTO_SUGGESTION_TIME", "3400")
 )  # Remember to give value in Seconds
 
 # Set it True if you want to delete downloads after the music playout ends from your downloads folder
 AUTO_DOWNLOADS_CLEAR = getenv("AUTO_DOWNLOADS_CLEAR", "True")
 
 # Set it True if you want to bot to suggest about bot commands to random chats of your bots.
-AUTO_SUGGESTION_MODE = getenv("AUTO_SUGGESTION_MODE", "False").capitalize()
+AUTO_SUGGESTION_MODE = getenv("AUTO_SUGGESTION_MODE", "True").capitalize()
 
 # Set it true if you want your bot to be private only [You'll need to allow CHAT_ID via /authorise command then only your bot will play music in that chat.]
 PRIVATE_BOT_MODE = getenv("PRIVATE_BOT_MODE", None)
@@ -159,7 +159,7 @@ autoclean = []
 
 
 # Images
-START_IMG_URL = getenv("START_IMG_URL", "https://telegra.ph/file/e17f42bc195635b668d6d.jpg")
+START_IMG_URL = getenv("START_IMG_URL", "https://telegra.ph/file/a135d1c4802c026db5bc5.jpg")
 
 PING_IMG_URL = getenv(
     "PING_IMG_URL",
@@ -183,12 +183,12 @@ STATS_IMG_URL = getenv(
 
 TELEGRAM_AUDIO_URL = getenv(
     "TELEGRAM_AUDIO_URL",
-    "assets/Audio.jpeg",
+    "https://telegra.ph/file/e1acc9365482ad087a8fc.jpg",
 )
 
 TELEGRAM_VIDEO_URL = getenv(
     "TELEGRAM_VIDEO_URL",
-    "assets/Video.jpeg",
+    "https://telegra.ph/file/e1acc9365482ad087a8fc.jpg",
 )
 
 STREAM_IMG_URL = getenv(
