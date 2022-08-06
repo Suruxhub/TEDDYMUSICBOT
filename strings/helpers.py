@@ -23,153 +23,153 @@ HELP_1 = """✅**<ᴜ>Aᴅᴍɪɴ Cᴏᴍᴍᴀɴᴅs:</ᴜ>**
 /restart - Rᴇsᴛᴀʀᴛ ʙᴏᴛ ғᴏʀ ʏᴏᴜʀ ᴄʜᴀᴛ .
 
 
-✅<u>**Specific Skip:**</u>
-/skip or /cskip [Number(example: 3)] 
-    - Skips music to a the specified queued number. Example: /skip 3 will skip music to third queued music and will ignore 1 and 2 music in queue.
+✅<ᴜ>**Sᴘᴇᴄɪғɪᴄ Sᴋɪᴘ:**</ᴜ>
+/skip ᴏʀ /cskip [Nᴜᴍʙᴇʀ(ᴇxᴀᴍᴘʟᴇ: 3)] 
+    - Sᴋɪᴘs ᴍᴜsɪᴄ ᴛᴏ ᴀ ᴛʜᴇ sᴘᴇᴄɪғɪᴇᴅ ᴏ̨ᴜᴇᴜᴇᴅ ɴᴜᴍʙᴇʀ. Exᴀᴍᴘʟᴇ: /skip 3 ᴡɪʟʟ sᴋɪᴘ ᴍᴜsɪᴄ ᴛᴏ ᴛʜɪʀᴅ ᴏ̨ᴜᴇᴜᴇᴅ ᴍᴜsɪᴄ ᴀɴᴅ ᴡɪʟʟ ɪɢɴᴏʀᴇ 1 ᴀɴᴅ 2 ᴍᴜsɪᴄ ɪɴ ᴏ̨ᴜᴇᴜᴇ.
 
-✅<u>**Loop Play:**</u>
-/loop or /cloop [enable/disable] or [Numbers between 1-10] 
-    - When activated, bot loops the current playing music to 1-10 times on voice chat. Default to 10 times.
+✅<ᴜ>**Lᴏᴏᴘ Pʟᴀʏ:**</ᴜ>
+/loop ᴏʀ /cloop [ᴇɴᴀʙʟᴇ/ᴅɪsᴀʙʟᴇ] ᴏʀ [Nᴜᴍʙᴇʀs ʙᴇᴛᴡᴇᴇɴ 1-10] 
+    - Wʜᴇɴ ᴀᴄᴛɪᴠᴀᴛᴇᴅ, ʙᴏᴛ ʟᴏᴏᴘs ᴛʜᴇ ᴄᴜʀʀᴇɴᴛ ᴘʟᴀʏɪɴɢ ᴍᴜsɪᴄ ᴛᴏ 1-10 ᴛɪᴍᴇs ᴏɴ ᴠᴏɪᴄᴇ ᴄʜᴀᴛ. Dᴇғᴀᴜʟᴛ ᴛᴏ 10 ᴛɪᴍᴇs.
 
-✅<u>**Auth Users:**</u>
-Auth Users can use admin commands without admin rights in your chat.
+✅<ᴜ>**Aᴜᴛʜ Usᴇʀs:**</ᴜ>
+Aᴜᴛʜ Usᴇʀs ᴄᴀɴ ᴜsᴇ ᴀᴅᴍɪɴ ᴄᴏᴍᴍᴀɴᴅs ᴡɪᴛʜᴏᴜᴛ ᴀᴅᴍɪɴ ʀɪɢʜᴛs ɪɴ ʏᴏᴜʀ ᴄʜᴀᴛ.
 
-/auth [Username] - Add a user to AUTH LIST of the group.
-/unauth [Username] - Remove a user from AUTH LIST of the group.
-/authusers - Check AUTH LIST of the group."""
-
-
-HELP_2 = """✅<u>**Play Commands:**</u>
-
-Available Commands = play , vplay , cplay
-
-ForcePlay Commands = playforce , vplayforce , cplayforce
-
-**c** stands for channel play.
-**v** stands for video play.
-**force** stands for force play.
-
-/play or /vplay or /cplay  - Bot will start playing your given query on voice chat or Stream live links on voice chats.
-
-/playforce or /vplayforce or /cplayforce -  **Force Play** stops the current playing track on voice chat and starts playing the searched track instantly without disturbing/clearing queue.
-
-/channelplay [Chat username or id] or [Disable] - Connect channel to a group and stream music on channel's voice chat from your group.
+/auth [Usᴇʀɴᴀᴍᴇ] - Aᴅᴅ ᴀ ᴜsᴇʀ ᴛᴏ AUTH LIST ᴏғ ᴛʜᴇ ɢʀᴏᴜᴘ.
+/unauth [Usᴇʀɴᴀᴍᴇ] - Rᴇᴍᴏᴠᴇ ᴀ ᴜsᴇʀ ғʀᴏᴍ AUTH LIST ᴏғ ᴛʜᴇ ɢʀᴏᴜᴘ.
+/authusers - Cʜᴇᴄᴋ AUTH LIST ᴏғ ᴛʜᴇ ɢʀᴏᴜᴘ."""
 
 
-✅**<u>Bot's Server Playlists:</u>**
-/playlist  - Check Your Saved Playlist On Servers.
-/deleteplaylist - Delete any saved music in your playlist
-/play  - Start playing Your Saved Playlist from Servers."""
+HELP_2 = """✅<ᴜ>**Pʟᴀʏ Cᴏᴍᴍᴀɴᴅs:**</ᴜ>
+
+Aᴠᴀɪʟᴀʙʟᴇ Cᴏᴍᴍᴀɴᴅs = ᴘʟᴀʏ , ᴠᴘʟᴀʏ , ᴄᴘʟᴀʏ
+
+FᴏʀᴄᴇPʟᴀʏ Cᴏᴍᴍᴀɴᴅs = ᴘʟᴀʏғᴏʀᴄᴇ , ᴠᴘʟᴀʏғᴏʀᴄᴇ , ᴄᴘʟᴀʏғᴏʀᴄᴇ
+
+**ᴄ** sᴛᴀɴᴅs ғᴏʀ ᴄʜᴀɴɴᴇʟ ᴘʟᴀʏ.
+**ᴠ** sᴛᴀɴᴅs ғᴏʀ ᴠɪᴅᴇᴏ ᴘʟᴀʏ.
+**ғᴏʀᴄᴇ** sᴛᴀɴᴅs ғᴏʀ ғᴏʀᴄᴇ ᴘʟᴀʏ.
+
+/play ᴏʀ /vplay ᴏʀ /cplay  - Bᴏᴛ ᴡɪʟʟ sᴛᴀʀᴛ ᴘʟᴀʏɪɴɢ ʏᴏᴜʀ ɢɪᴠᴇɴ ᴏ̨ᴜᴇʀʏ ᴏɴ ᴠᴏɪᴄᴇ ᴄʜᴀᴛ ᴏʀ Sᴛʀᴇᴀᴍ ʟɪᴠᴇ ʟɪɴᴋs ᴏɴ ᴠᴏɪᴄᴇ ᴄʜᴀᴛs.
+
+/playforce ᴏʀ /vplayforce ᴏʀ /cplayforce -  **Fᴏʀᴄᴇ Pʟᴀʏ** sᴛᴏᴘs ᴛʜᴇ ᴄᴜʀʀᴇɴᴛ ᴘʟᴀʏɪɴɢ ᴛʀᴀᴄᴋ ᴏɴ ᴠᴏɪᴄᴇ ᴄʜᴀᴛ ᴀɴᴅ sᴛᴀʀᴛs ᴘʟᴀʏɪɴɢ ᴛʜᴇ sᴇᴀʀᴄʜᴇᴅ ᴛʀᴀᴄᴋ ɪɴsᴛᴀɴᴛʟʏ ᴡɪᴛʜᴏᴜᴛ ᴅɪsᴛᴜʀʙɪɴɢ/ᴄʟᴇᴀʀɪɴɢ ᴏ̨ᴜᴇᴜᴇ.
+
+/channelplay [Cʜᴀᴛ ᴜsᴇʀɴᴀᴍᴇ ᴏʀ ɪᴅ] ᴏʀ [Dɪsᴀʙʟᴇ] - Cᴏɴɴᴇᴄᴛ ᴄʜᴀɴɴᴇʟ ᴛᴏ ᴀ ɢʀᴏᴜᴘ ᴀɴᴅ sᴛʀᴇᴀᴍ ᴍᴜsɪᴄ ᴏɴ ᴄʜᴀɴɴᴇʟ's ᴠᴏɪᴄᴇ ᴄʜᴀᴛ ғʀᴏᴍ ʏᴏᴜʀ ɢʀᴏᴜᴘ.
 
 
-HELP_3 = """✅<u>**Bot Commands:**</u>
+✅**<ᴜ>Bᴏᴛ's Sᴇʀᴠᴇʀ Pʟᴀʏʟɪsᴛs:</ᴜ>**
+/playlist  - Cʜᴇᴄᴋ Yᴏᴜʀ Sᴀᴠᴇᴅ Pʟᴀʏʟɪsᴛ Oɴ Sᴇʀᴠᴇʀs.
+/deleteplaylist - Dᴇʟᴇᴛᴇ ᴀɴʏ sᴀᴠᴇᴅ ᴍᴜsɪᴄ ɪɴ ʏᴏᴜʀ ᴘʟᴀʏʟɪsᴛ
+/play  - Sᴛᴀʀᴛ ᴘʟᴀʏɪɴɢ Yᴏᴜʀ Sᴀᴠᴇᴅ Pʟᴀʏʟɪsᴛ ғʀᴏᴍ Sᴇʀᴠᴇʀs."""
 
-/stats - Get Top 10 Tracks Global Stats, Top 10 Users of bot, Top 10 Chats on bot, Top 10 Played in a chat etc etc.
 
-/sudolist - Check Sudo Users of Yukki Music Bot
+HELP_3 = """✅<ᴜ>**Bᴏᴛ Cᴏᴍᴍᴀɴᴅs:**</ᴜ>
 
-/lyrics [Music Name] - Searches Lyrics for the particular Music on web.
+/stats - Gᴇᴛ Tᴏᴘ 10 Tʀᴀᴄᴋs Gʟᴏʙᴀʟ Sᴛᴀᴛs, Tᴏᴘ 10 Usᴇʀs ᴏғ ʙᴏᴛ, Tᴏᴘ 10 Cʜᴀᴛs ᴏɴ ʙᴏᴛ, Tᴏᴘ 10 Pʟᴀʏᴇᴅ ɪɴ ᴀ ᴄʜᴀᴛ ᴇᴛᴄ ᴇᴛᴄ.
 
-/song [Track Name] or [YT Link] - Download any track from youtube in mp3 or mp4 formats.
+/sudolist - Cʜᴇᴄᴋ Sᴜᴅᴏ Usᴇʀs ᴏғ Yᴜᴋᴋɪ Mᴜsɪᴄ Bᴏᴛ
 
-/player -  Get a interactive Playing Panel.
+/lyrics [Mᴜsɪᴄ Nᴀᴍᴇ] - Sᴇᴀʀᴄʜᴇs Lʏʀɪᴄs ғᴏʀ ᴛʜᴇ ᴘᴀʀᴛɪᴄᴜʟᴀʀ Mᴜsɪᴄ ᴏɴ ᴡᴇʙ.
 
-**c** stands for channel play.
+/song [Tʀᴀᴄᴋ Nᴀᴍᴇ] ᴏʀ [YT Lɪɴᴋ] - Dᴏᴡɴʟᴏᴀᴅ ᴀɴʏ ᴛʀᴀᴄᴋ ғʀᴏᴍ ʏᴏᴜᴛᴜʙᴇ ɪɴ ᴍᴘ3 ᴏʀ ᴍᴘ4 ғᴏʀᴍᴀᴛs.
 
-/queue or /cqueue- Check Queue List of Music."""
+/player -  Gᴇᴛ ᴀ ɪɴᴛᴇʀᴀᴄᴛɪᴠᴇ Pʟᴀʏɪɴɢ Pᴀɴᴇʟ.
 
-HELP_4 = """✅<u>**Extra  Commands:**</u>
-/start - Start the Music Bot.
-/help  - Get Commands Helper Menu with detailed explanations of commands.
-/ping- Ping the Bot and check Ram, Cpu etc stats of Bot.
+**ᴄ** sᴛᴀɴᴅs ғᴏʀ ᴄʜᴀɴɴᴇʟ ᴘʟᴀʏ.
 
-✅<u>**Group Settings:**</u>
-/settings - Get a complete group's settings with inline buttons
+/queue ᴏʀ /cqueue - Cʜᴇᴄᴋ Qᴜᴇᴜᴇ Lɪsᴛ ᴏғ Mᴜsɪᴄ."""
 
-🔗 **Options in Settings:**
+HELP_4 = """✅<ᴜ>**Exᴛʀᴀ  Cᴏᴍᴍᴀɴᴅs:**</ᴜ>
+/start - Sᴛᴀʀᴛ ᴛʜᴇ Mᴜsɪᴄ Bᴏᴛ.
+/help  - Gᴇᴛ Cᴏᴍᴍᴀɴᴅs Hᴇʟᴘᴇʀ Mᴇɴᴜ ᴡɪᴛʜ ᴅᴇᴛᴀɪʟᴇᴅ ᴇxᴘʟᴀɴᴀᴛɪᴏɴs ᴏғ ᴄᴏᴍᴍᴀɴᴅs.
+/ping - Pɪɴɢ ᴛʜᴇ Bᴏᴛ ᴀɴᴅ ᴄʜᴇᴄᴋ Rᴀᴍ, Cᴘᴜ ᴇᴛᴄ sᴛᴀᴛs ᴏғ Bᴏᴛ.
 
-1️⃣ You can set **Audio Quality** you want to stream on voice chat.
+✅<ᴜ>**Gʀᴏᴜᴘ Sᴇᴛᴛɪɴɢs:**</ᴜ>
+/settings - Gᴇᴛ ᴀ ᴄᴏᴍᴘʟᴇᴛᴇ ɢʀᴏᴜᴘ's sᴇᴛᴛɪɴɢs ᴡɪᴛʜ ɪɴʟɪɴᴇ ʙᴜᴛᴛᴏɴs
 
-2️⃣ You can set **Video Quality** you want to stream on voice chat.
+🔗 **Oᴘᴛɪᴏɴs ɪɴ Sᴇᴛᴛɪɴɢs:**
 
-3️⃣ **Auth Users**:- You can change admin commands mode from here to everyone or admins only. If everyone, anyone present in you group will be able to use admin commands(like /skip, /stop etc)
+1️⃣ Yᴏᴜ ᴄᴀɴ sᴇᴛ **Aᴜᴅɪᴏ Qᴜᴀʟɪᴛʏ** ʏᴏᴜ ᴡᴀɴᴛ ᴛᴏ sᴛʀᴇᴀᴍ ᴏɴ ᴠᴏɪᴄᴇ ᴄʜᴀᴛ.
 
-4️⃣ **Clean Mode:** When enabled deletes the bot's messages after 5 mins from your group to make sure your chat remains clean and good.
+2️⃣ Yᴏᴜ ᴄᴀɴ sᴇᴛ **Vɪᴅᴇᴏ Qᴜᴀʟɪᴛʏ** ʏᴏᴜ ᴡᴀɴᴛ ᴛᴏ sᴛʀᴇᴀᴍ ᴏɴ ᴠᴏɪᴄᴇ ᴄʜᴀᴛ.
 
-5️⃣ **Command Clean** : When activated, Bot will delete its executed commands (/play, /pause, /shuffle, /stop etc) immediately.
+3️⃣ **Aᴜᴛʜ Usᴇʀs**:- Yᴏᴜ ᴄᴀɴ ᴄʜᴀɴɢᴇ ᴀᴅᴍɪɴ ᴄᴏᴍᴍᴀɴᴅs ᴍᴏᴅᴇ ғʀᴏᴍ ʜᴇʀᴇ ᴛᴏ ᴇᴠᴇʀʏᴏɴᴇ ᴏʀ ᴀᴅᴍɪɴs ᴏɴʟʏ. Iғ ᴇᴠᴇʀʏᴏɴᴇ, ᴀɴʏᴏɴᴇ ᴘʀᴇsᴇɴᴛ ɪɴ ʏᴏᴜ ɢʀᴏᴜᴘ ᴡɪʟʟ ʙᴇ ᴀʙʟᴇ ᴛᴏ ᴜsᴇ ᴀᴅᴍɪɴ ᴄᴏᴍᴍᴀɴᴅs(ʟɪᴋᴇ /skip, /stop ᴇᴛᴄ)
 
-6️⃣ **Play Settings:**
+4️⃣ **Cʟᴇᴀɴ Mᴏᴅᴇ:** Wʜᴇɴ ᴇɴᴀʙʟᴇᴅ ᴅᴇʟᴇᴛᴇs ᴛʜᴇ ʙᴏᴛ's ᴍᴇssᴀɢᴇs ᴀғᴛᴇʀ 5 ᴍɪɴs ғʀᴏᴍ ʏᴏᴜʀ ɢʀᴏᴜᴘ ᴛᴏ ᴍᴀᴋᴇ sᴜʀᴇ ʏᴏᴜʀ ᴄʜᴀᴛ ʀᴇᴍᴀɪɴs ᴄʟᴇᴀɴ ᴀɴᴅ ɢᴏᴏᴅ.
 
-/playmode - Get a complete play settings panel with buttons where you can set your group's play settings. 
+5️⃣ **Cᴏᴍᴍᴀɴᴅ Cʟᴇᴀɴ** : Wʜᴇɴ ᴀᴄᴛɪᴠᴀᴛᴇᴅ, Bᴏᴛ ᴡɪʟʟ ᴅᴇʟᴇᴛᴇ ɪᴛs ᴇxᴇᴄᴜᴛᴇᴅ ᴄᴏᴍᴍᴀɴᴅs (/play, /pause, /shuffle, /stop ᴇᴛᴄ) ɪᴍᴍᴇᴅɪᴀᴛᴇʟʏ.
 
-<u>Options in playmode:</u>
+6️⃣ **Pʟᴀʏ Sᴇᴛᴛɪɴɢs:**
 
-1️⃣ **Search Mode** [Direct or Inline] - Changes your search mode while you give /play mode. 
+/playmode - Gᴇᴛ ᴀ ᴄᴏᴍᴘʟᴇᴛᴇ ᴘʟᴀʏ sᴇᴛᴛɪɴɢs ᴘᴀɴᴇʟ ᴡɪᴛʜ ʙᴜᴛᴛᴏɴs ᴡʜᴇʀᴇ ʏᴏᴜ ᴄᴀɴ sᴇᴛ ʏᴏᴜʀ ɢʀᴏᴜᴘ's ᴘʟᴀʏ sᴇᴛᴛɪɴɢs. 
 
-2️⃣ **Admin Commands** [Everyone or Admins] - If everyone, anyone present in you group will be able to use admin commands(like /skip, /stop etc)
+<ᴜ>Oᴘᴛɪᴏɴs ɪɴ ᴘʟᴀʏᴍᴏᴅᴇ:</ᴜ>
 
-3️⃣ **Play Type** [Everyone or Admins] - If admins, only admins present in group can play music on voice chat."""
+1️⃣ **Sᴇᴀʀᴄʜ Mᴏᴅᴇ** [Dɪʀᴇᴄᴛ ᴏʀ Iɴʟɪɴᴇ] - Cʜᴀɴɢᴇs ʏᴏᴜʀ sᴇᴀʀᴄʜ ᴍᴏᴅᴇ ᴡʜɪʟᴇ ʏᴏᴜ ɢɪᴠᴇ /play ᴍᴏᴅᴇ. 
 
-HELP_5 = """🔰**<u>ADD & REMOVE SUDO USERS :</u>**
-/addsudo [Username or Reply to a user]
-/delsudo [Username or Reply to a user]
+2️⃣ **Aᴅᴍɪɴ Cᴏᴍᴍᴀɴᴅs** [Eᴠᴇʀʏᴏɴᴇ ᴏʀ Aᴅᴍɪɴs] - Iғ ᴇᴠᴇʀʏᴏɴᴇ, ᴀɴʏᴏɴᴇ ᴘʀᴇsᴇɴᴛ ɪɴ ʏᴏᴜ ɢʀᴏᴜᴘ ᴡɪʟʟ ʙᴇ ᴀʙʟᴇ ᴛᴏ ᴜsᴇ ᴀᴅᴍɪɴ ᴄᴏᴍᴍᴀɴᴅs(ʟɪᴋᴇ /skip, /stop ᴇᴛᴄ)
 
-🛃**<u>HEROKU:</u>**
-/usage - Dyno Usage.
+3️⃣ **Pʟᴀʏ Tʏᴘᴇ** [Eᴠᴇʀʏᴏɴᴇ ᴏʀ Aᴅᴍɪɴs] - Iғ ᴀᴅᴍɪɴs, ᴏɴʟʏ ᴀᴅᴍɪɴs ᴘʀᴇsᴇɴᴛ ɪɴ ɢʀᴏᴜᴘ ᴄᴀɴ ᴘʟᴀʏ ᴍᴜsɪᴄ ᴏɴ ᴠᴏɪᴄᴇ ᴄʜᴀᴛ."""
 
-🌐**<u>CONFIG VARS:</u>**
-/get_var - Get a config var from Heroku or .env.
-/del_var - Delete any var on Heroku or .env.
-/set_var [Var Name] [Value] - Set a Var or Update a Var on heroku or .env. Seperate Var and its Value with a space.
+HELP_5 = """🔰**<ᴜ>ADD & REMOVE SUDO USERS :</ᴜ>**
+/addsudo [Usᴇʀɴᴀᴍᴇ ᴏʀ Rᴇᴘʟʏ ᴛᴏ ᴀ ᴜsᴇʀ]
+/delsudo [Usᴇʀɴᴀᴍᴇ ᴏʀ Rᴇᴘʟʏ ᴛᴏ ᴀ ᴜsᴇʀ]
 
-🤖**<u>BOT COMMANDS:</u>**
-/reboot - Reboot your Bot. 
-/update - Update Bot.
-/speedtest - Check server speeds
-/maintenance [enable / disable] 
-/logger [enable / disable] - Bot logs the searched queries in logger group.
-/get_log [Number of Lines] - Get log of your bot from heroku or vps. Works for both.
-/autoend [enable|disable] - Enable Auto stream end after 3 mins if no one is listening.
+🛃**<ᴜ>HEROKU:</ᴜ>**
+/usage - Dʏɴᴏ Usᴀɢᴇ.
 
-📈**<u>STATS COMMANDS:</u>**
-/activevoice - Check active voice chats on bot.
-/activevideo - Check active video calls on bot.
-/stats - Check Bots Stats
+🌐**<ᴜ>CONFIG VARS:</ᴜ>**
+/get_var - Gᴇᴛ ᴀ ᴄᴏɴғɪɢ ᴠᴀʀ ғʀᴏᴍ Hᴇʀᴏᴋᴜ ᴏʀ .ᴇɴᴠ.
+/del_var - Dᴇʟᴇᴛᴇ ᴀɴʏ ᴠᴀʀ ᴏɴ Hᴇʀᴏᴋᴜ ᴏʀ .ᴇɴᴠ.
+/set_var [Vᴀʀ Nᴀᴍᴇ] [Vᴀʟᴜᴇ] - Sᴇᴛ ᴀ Vᴀʀ ᴏʀ Uᴘᴅᴀᴛᴇ ᴀ Vᴀʀ ᴏɴ ʜᴇʀᴏᴋᴜ ᴏʀ .ᴇɴᴠ. Sᴇᴘᴇʀᴀᴛᴇ Vᴀʀ ᴀɴᴅ ɪᴛs Vᴀʟᴜᴇ ᴡɪᴛʜ ᴀ sᴘᴀᴄᴇ.
 
-⚠️**<u>BLACKLIST CHAT FUNCTION:</u>**
-/blacklistchat [CHAT_ID] - Blacklist any chat from using Music Bot
-/whitelistchat [CHAT_ID] - Whitelist any blacklisted chat from using Music Bot
-/blacklistedchat - Check all blacklisted chats.
+🤖**<ᴜ>BOT COMMANDS:</ᴜ>**
+/reboot - Rᴇʙᴏᴏᴛ ʏᴏᴜʀ Bᴏᴛ. 
+/update - Uᴘᴅᴀᴛᴇ Bᴏᴛ.
+/speedtest - Cʜᴇᴄᴋ sᴇʀᴠᴇʀ sᴘᴇᴇᴅs
+/maintenance [ᴇɴᴀʙʟᴇ / ᴅɪsᴀʙʟᴇ] 
+/logger [ᴇɴᴀʙʟᴇ / ᴅɪsᴀʙʟᴇ] - Bᴏᴛ ʟᴏɢs ᴛʜᴇ sᴇᴀʀᴄʜᴇᴅ ᴏ̨ᴜᴇʀɪᴇs ɪɴ ʟᴏɢɢᴇʀ ɢʀᴏᴜᴘ.
+/get_log [Nᴜᴍʙᴇʀ ᴏғ Lɪɴᴇs] - Gᴇᴛ ʟᴏɢ ᴏғ ʏᴏᴜʀ ʙᴏᴛ ғʀᴏᴍ ʜᴇʀᴏᴋᴜ ᴏʀ ᴠᴘs. Wᴏʀᴋs ғᴏʀ ʙᴏᴛʜ.
+/autoend [ᴇɴᴀʙʟᴇ|ᴅɪsᴀʙʟᴇ] - Eɴᴀʙʟᴇ Aᴜᴛᴏ sᴛʀᴇᴀᴍ ᴇɴᴅ ᴀғᴛᴇʀ 3 ᴍɪɴs ɪғ ɴᴏ ᴏɴᴇ ɪs ʟɪsᴛᴇɴɪɴɢ.
 
-👤**<u>BLOCKED FUNCTION:</u>**
-/block [Username or Reply to a user] - Prevents a user from using bot commands.
-/unblock [Username or Reply to a user] - Remove a user from Bot's Blocked List.
-/blockedusers - Check blocked Users Lists
+📈**<ᴜ>STATS COMMANDS:</ᴜ>**
+/activevoice - Cʜᴇᴄᴋ ᴀᴄᴛɪᴠᴇ ᴠᴏɪᴄᴇ ᴄʜᴀᴛs ᴏɴ ʙᴏᴛ.
+/activevideo - Cʜᴇᴄᴋ ᴀᴄᴛɪᴠᴇ ᴠɪᴅᴇᴏ ᴄᴀʟʟs ᴏɴ ʙᴏᴛ.
+/stats - Cʜᴇᴄᴋ Bᴏᴛs Sᴛᴀᴛs
 
-👤**<u>GBAN FUNCTION:</u>**
-/gban [Username or Reply to a user] - Gban a user from bot's served chat and stop him from using your bot.
-/ungban [Username or Reply to a user] - Remove a user from Bot's gbanned List and allow him for using your bot
-/gbannedusers - Check Gbanned Users Lists
+⚠️**<ᴜ>BLACKLIST CHAT FUNCTION:</ᴜ>**
+/blacklistchat [CHAT_ID] - Bʟᴀᴄᴋʟɪsᴛ ᴀɴʏ ᴄʜᴀᴛ ғʀᴏᴍ ᴜsɪɴɢ Mᴜsɪᴄ Bᴏᴛ
+/whitelistchat [CHAT_ID] - Wʜɪᴛᴇʟɪsᴛ ᴀɴʏ ʙʟᴀᴄᴋʟɪsᴛᴇᴅ ᴄʜᴀᴛ ғʀᴏᴍ ᴜsɪɴɢ Mᴜsɪᴄ Bᴏᴛ
+/blacklistedchat - Cʜᴇᴄᴋ ᴀʟʟ ʙʟᴀᴄᴋʟɪsᴛᴇᴅ ᴄʜᴀᴛs.
 
-🎥**<u>VIDEOCALLS FUNCTION:</u>**
-/set_video_limit [Number of Chats] - Set a maximum Number of Chats allowed for Video Calls at a time. Default to 3 chats.
-/videomode [download|m3u8] - If download mode is enabled, Bot will download videos instead of playing them in M3u8 form. ByDefault to M3u8. You can use download mode when any query doesnt plays in m3u8 mode.
+👤**<ᴜ>BLOCKED FUNCTION:</ᴜ>**
+/block [Usᴇʀɴᴀᴍᴇ ᴏʀ Rᴇᴘʟʏ ᴛᴏ ᴀ ᴜsᴇʀ] - Pʀᴇᴠᴇɴᴛs ᴀ ᴜsᴇʀ ғʀᴏᴍ ᴜsɪɴɢ ʙᴏᴛ ᴄᴏᴍᴍᴀɴᴅs.
+/unblock [Usᴇʀɴᴀᴍᴇ ᴏʀ Rᴇᴘʟʏ ᴛᴏ ᴀ ᴜsᴇʀ] - Rᴇᴍᴏᴠᴇ ᴀ ᴜsᴇʀ ғʀᴏᴍ Bᴏᴛ's Bʟᴏᴄᴋᴇᴅ Lɪsᴛ.
+/blockedusers - Cʜᴇᴄᴋ ʙʟᴏᴄᴋᴇᴅ Usᴇʀs Lɪsᴛs
 
-⚡️**<u>PRIVATE BOT FUNCTION:</u>**
-/authorize [CHAT_ID] - Allow a chat for using your bot.
-/unauthorize [CHAT_ID] - Disallow a chat from using your bot.
-/authorized - Check all allowed chats of your bot.
+👤**<ᴜ>GBAN FUNCTION:</ᴜ>**
+/gban [Usᴇʀɴᴀᴍᴇ ᴏʀ Rᴇᴘʟʏ ᴛᴏ ᴀ ᴜsᴇʀ] - Gʙᴀɴ ᴀ ᴜsᴇʀ ғʀᴏᴍ ʙᴏᴛ's sᴇʀᴠᴇᴅ ᴄʜᴀᴛ ᴀɴᴅ sᴛᴏᴘ ʜɪᴍ ғʀᴏᴍ ᴜsɪɴɢ ʏᴏᴜʀ ʙᴏᴛ.
+/ungban [Usᴇʀɴᴀᴍᴇ ᴏʀ Rᴇᴘʟʏ ᴛᴏ ᴀ ᴜsᴇʀ] - Rᴇᴍᴏᴠᴇ ᴀ ᴜsᴇʀ ғʀᴏᴍ Bᴏᴛ's ɢʙᴀɴɴᴇᴅ Lɪsᴛ ᴀɴᴅ ᴀʟʟᴏᴡ ʜɪᴍ ғᴏʀ ᴜsɪɴɢ ʏᴏᴜʀ ʙᴏᴛ
+/gbanlist - Cʜᴇᴄᴋ Gʙᴀɴɴᴇᴅ Usᴇʀs Lɪsᴛs
 
-🌐**<u>BROADCAST FUNCTION:</u>**
-/broadcast [Message or Reply to a Message] - Broadcast any message to Bot's Served Chats.
+🎥**<ᴜ>VIDEOCALLS FUNCTION:</ᴜ>**
+/set_video_limit [Nᴜᴍʙᴇʀ ᴏғ Cʜᴀᴛs] - Sᴇᴛ ᴀ ᴍᴀxɪᴍᴜᴍ Nᴜᴍʙᴇʀ ᴏғ Cʜᴀᴛs ᴀʟʟᴏᴡᴇᴅ ғᴏʀ Vɪᴅᴇᴏ Cᴀʟʟs ᴀᴛ ᴀ ᴛɪᴍᴇ. Dᴇғᴀᴜʟᴛ ᴛᴏ 3 ᴄʜᴀᴛs.
+/videomode [ᴅᴏᴡɴʟᴏᴀᴅ|ᴍ3ᴜ8] - Iғ ᴅᴏᴡɴʟᴏᴀᴅ ᴍᴏᴅᴇ ɪs ᴇɴᴀʙʟᴇᴅ, Bᴏᴛ ᴡɪʟʟ ᴅᴏᴡɴʟᴏᴀᴅ ᴠɪᴅᴇᴏs ɪɴsᴛᴇᴀᴅ ᴏғ ᴘʟᴀʏɪɴɢ ᴛʜᴇᴍ ɪɴ M3ᴜ8 ғᴏʀᴍ. BʏDᴇғᴀᴜʟᴛ ᴛᴏ M3ᴜ8. Yᴏᴜ ᴄᴀɴ ᴜsᴇ ᴅᴏᴡɴʟᴏᴀᴅ ᴍᴏᴅᴇ ᴡʜᴇɴ ᴀɴʏ ᴏ̨ᴜᴇʀʏ ᴅᴏᴇsɴᴛ ᴘʟᴀʏs ɪɴ ᴍ3ᴜ8 ᴍᴏᴅᴇ.
 
-<u>options for broadcast:</u>
-**-pin** : This will pin your message 
-**-pinloud** : This will pin your message with loud notification
-**-user** : This will broadcast your message to the users who have started your bot.
-**-assistant** : This will broadcast your message from assistant account of your bot.
-**-nobot** : This will force your bot to not broadcast message
+⚡️**<ᴜ>PRIVATE BOT FUNCTION:</ᴜ>**
+/authorize [CHAT_ID] - Aʟʟᴏᴡ ᴀ ᴄʜᴀᴛ ғᴏʀ ᴜsɪɴɢ ʏᴏᴜʀ ʙᴏᴛ.
+/unauthorize [CHAT_ID] - Dɪsᴀʟʟᴏᴡ ᴀ ᴄʜᴀᴛ ғʀᴏᴍ ᴜsɪɴɢ ʏᴏᴜʀ ʙᴏᴛ.
+/authorized - Cʜᴇᴄᴋ ᴀʟʟ ᴀʟʟᴏᴡᴇᴅ ᴄʜᴀᴛs ᴏғ ʏᴏᴜʀ ʙᴏᴛ.
 
-**Example:** `/broadcast -user -assistant -pin Hello Testing`
+🌐**<ᴜ>BROADCAST FUNCTION:</ᴜ>**
+/broadcast [Mᴇssᴀɢᴇ ᴏʀ Rᴇᴘʟʏ ᴛᴏ ᴀ Mᴇssᴀɢᴇ] - Bʀᴏᴀᴅᴄᴀsᴛ ᴀɴʏ ᴍᴇssᴀɢᴇ ᴛᴏ Bᴏᴛ's Sᴇʀᴠᴇᴅ Cʜᴀᴛs.
+
+<ᴜ>ᴏᴘᴛɪᴏɴs ғᴏʀ ʙʀᴏᴀᴅᴄᴀsᴛ:</ᴜ>
+**-ᴘɪɴ** : Tʜɪs ᴡɪʟʟ ᴘɪɴ ʏᴏᴜʀ ᴍᴇssᴀɢᴇ 
+**-ᴘɪɴʟᴏᴜᴅ** : Tʜɪs ᴡɪʟʟ ᴘɪɴ ʏᴏᴜʀ ᴍᴇssᴀɢᴇ ᴡɪᴛʜ ʟᴏᴜᴅ ɴᴏᴛɪғɪᴄᴀᴛɪᴏɴ
+**-ᴜsᴇʀ** : Tʜɪs ᴡɪʟʟ ʙʀᴏᴀᴅᴄᴀsᴛ ʏᴏᴜʀ ᴍᴇssᴀɢᴇ ᴛᴏ ᴛʜᴇ ᴜsᴇʀs ᴡʜᴏ ʜᴀᴠᴇ sᴛᴀʀᴛᴇᴅ ʏᴏᴜʀ ʙᴏᴛ.
+**-ᴀssɪsᴛᴀɴᴛ** : Tʜɪs ᴡɪʟʟ ʙʀᴏᴀᴅᴄᴀsᴛ ʏᴏᴜʀ ᴍᴇssᴀɢᴇ ғʀᴏᴍ ᴀssɪsᴛᴀɴᴛ ᴀᴄᴄᴏᴜɴᴛ ᴏғ ʏᴏᴜʀ ʙᴏᴛ.
+**-ɴᴏʙᴏᴛ** : Tʜɪs ᴡɪʟʟ ғᴏʀᴄᴇ ʏᴏᴜʀ ʙᴏᴛ ᴛᴏ ɴᴏᴛ ʙʀᴏᴀᴅᴄᴀsᴛ ᴍᴇssᴀɢᴇ
+
+**Exᴀᴍᴘʟᴇ:** `/broadcast -ᴜsᴇʀ -ᴀssɪsᴛᴀɴᴛ -ᴘɪɴ Hᴇʟʟᴏ Tᴇsᴛɪɴɢ`
 
 """
