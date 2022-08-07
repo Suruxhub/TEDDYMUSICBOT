@@ -6,7 +6,7 @@ BOT_USERNAME = app.username
 START_TEXT = f"""
 🦋 **Hᴇʟʟᴏ MENTION !**
 
-**Yᴏᴜ ᴄᴀɴ ᴜsᴇ [{BOT_NAME}](https://t.me/{BOT_USERNAME}) ᴛᴏ ᴘʟᴀʏ Mᴜsɪᴄ ᴏʀ Vɪᴅᴇᴏs ɪɴ ʏᴏᴜʀ Gʀᴏᴜᴘ Vɪᴅᴇᴏ Cʜᴀᴛ.**
+**Yᴏᴜ ᴄᴀɴ ᴜsᴇ [{BOT_NAME}](https://t.me/{BOT_USERNAME}) ᴛᴏ ᴘʟᴀʏ Mᴜsɪᴄ ᴏʀ Vɪᴅᴇᴏs ɪɴ ʏᴏᴜʀ Gʀᴏᴜᴘ Vɪᴅᴇᴏ Cʜᴀᴛ.\n\nSᴜᴘᴘᴏʀᴛɪɴɢ Pʟᴀᴛғᴏʀᴍs Lɪᴋᴇ Yᴏᴜᴛᴜʙᴇ,Sᴘᴏᴛɪғʏ,Rᴇssᴏ,AᴘᴘʟᴇMᴜsɪᴄ,Sᴏᴜɴᴅᴄʟᴏᴜᴅ ᴇᴛᴄ.**
 
 🖤 **Fɪɴᴅ ᴏᴜᴛ ᴀʟʟ ᴛʜᴇ Bᴏᴛ's ᴄᴏᴍᴍᴀɴᴅs ᴀɴᴅ ʜᴏᴡ ᴛʜᴇʏ ᴡᴏʀᴋ ʙʏ ᴄʟɪᴄᴋɪɴɢ ᴏɴ ᴛʜᴇ ➤ 🧸 Cᴏᴍᴍᴀɴᴅs ʙᴜᴛᴛᴏɴ**
 """
@@ -21,7 +21,7 @@ START_BUTTON_GROUP = InlineKeyboardMarkup(
     [   
         [
             InlineKeyboardButton(
-                text="📚 Cᴏᴍᴍᴀɴᴅs", callback_data="command_menu"
+                text="🧑‍💻 Cᴏᴍᴍᴀɴᴅs", callback_data="command_menu"
             ),
             InlineKeyboardButton(
                 text="🔧 Sᴇᴛᴛɪɴɢs", callback_data="settings_helper"
@@ -29,10 +29,10 @@ START_BUTTON_GROUP = InlineKeyboardMarkup(
         ],
         [
             InlineKeyboardButton(
-                text="🪄 Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ", url="https://t.me/Teddy_bot_updates"
+                text="💝 Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ", url="hhttps://t.me/Teddysupport"
             ),
             InlineKeyboardButton(
-                text="💬 Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ", url="https://t.me/Teddysupport"
+                text="🪄 Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ", url="https://t.me/Teddy_bot_updates"
             ),                       
         ],        
     ]
@@ -46,15 +46,15 @@ START_BUTTON_PRIVATE = InlineKeyboardMarkup(
         ],
         [   
             InlineKeyboardButton(
-                text="📚 Cᴏᴍᴍᴀɴᴅs", callback_data="command_menu"
+                text="🧑‍💻 Cᴏᴍᴍᴀɴᴅs", callback_data="command_menu"
             ),                       
         ],
         [
             InlineKeyboardButton(
-                text="🪄 Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ", url="https://t.me/Teddy_bot_updates"
+                text="💝 Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ", url="https://t.me/Teddysupport"
             ),
             InlineKeyboardButton(
-                text="💬 Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ", url="https://t.me/Teddysupport"
+                text="🪄 Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ", url="https://t.me/Teddy_bot_updates"
             ),                       
         ],        
     ]
@@ -288,7 +288,7 @@ COMMAND_MENU_BUTTON = InlineKeyboardMarkup(
         ],
         [
             InlineKeyboardButton(
-                text="📚 Aᴅᴠᴀɴᴄᴇᴅ Cᴏᴍᴍᴀɴᴅs", callback_data="advanced_cmd"
+                text="🧑‍💻 Aᴅᴠᴀɴᴄᴇᴅ Cᴏᴍᴍᴀɴᴅs", callback_data="advanced_cmd"
             ),
         ],
         [
