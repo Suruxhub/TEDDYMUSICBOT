@@ -63,7 +63,7 @@ UPSTREAM_REPO = "https://github.com/SRUJANSBOT/SOPHIAMUSICTESTREPO"
 UPSTREAM_BRANCH = "main"
 
 # GIT TOKEN ( if your edited repo is private)
-GIT_TOKEN = getenv("GIT_TOKEN", None)
+GIT_TOKEN = getenv("GIT_TOKEN", "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")
 
 # Set it in True if you want to leave your assistant after a certain amount of time. [Set time via AUTO_LEAVE_ASSISTANT_TIME]
 AUTO_LEAVING_ASSISTANT = getenv("AUTO_LEAVING_ASSISTANT", "False").capitalize()
