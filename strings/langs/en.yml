@@ -79,7 +79,7 @@ start_2 : "Hᴇʟʟᴏ, Mʏ ɴᴀᴍᴇ ɪs {0}.\n\nI'ᴍ ᴀ ᴛᴇʟᴇɢʀᴀ
 start_3 : "Wᴇʟᴄᴏᴍᴇ Tᴏ {0}\n\nPʀᴏᴍᴏᴛᴇ ᴍᴇ ᴀs ᴀɴ ᴀᴅᴍɪɴ ɪɴ ᴛʜɪs ɢʀᴏᴜᴘ ᴛᴏ ᴘʟᴀʏ ᴀɴ ʜɪɢʜ ᴏ̨ᴜᴀʟɪᴛʏ ʟᴀɢ ғʀᴇᴇ ᴍᴜsɪᴄ ɴᴅ ᴠɪᴅᴇᴏ ᴘʟᴀʏ.\n\nAssɪsᴛᴀɴᴛ Usᴇʀɴᴀᴍᴇ:- @{1}\nAssɪsᴛᴀɴᴛ ID:- {2}"
 start_4 : "{0}'s Oᴡɴᴇʀ[{1}] ʜᴀs ᴊᴜsᴛ ᴊᴏɪɴᴇᴅ ʏᴏᴜʀ ᴄʜᴀᴛ."
 start_5 : "A ᴍᴇᴍʙᴇʀ ᴏғ {0}'s Sᴜᴅᴏ Usᴇʀ[{1}] ʜᴀs ᴊᴜsᴛ ᴊᴏɪɴᴇᴅ ʏᴏᴜʀ ᴄʜᴀᴛ."
-start_6 : "!️ **Supergroup Needed** !️\n\nPlease convert your **group** to **supergroup** and then add me back.\n\n**How to make supergroup?**\n✅ Make your group's chat history **visible** once."
+start_6 : "**Sᴜᴘᴇʀɢʀᴏᴜᴘ ɴᴇᴇᴅᴇᴅ** !️\n\nPʟᴇᴀsᴇ ᴄᴏɴᴠᴇʀᴛ ʏᴏᴜʀ **GROUP** ᴛᴏ **SUPERGROUP** ɴᴅ ᴛʜᴇɴ ᴀᴅᴅ ᴍᴇ ʙᴀᴄᴋ.\n\n**Hᴏᴡ ᴛᴏ ᴍᴀᴋᴇ sᴜᴘᴇʀɢʀᴏᴜᴘ?**\n✅ Mᴀᴋᴇ ʏᴏᴜʀ ɢʀᴏᴜᴘ's ᴄʜᴀᴛ ʜɪsᴛᴏʀʏ **VISIBLE** ᴏɴᴄᴇ."
 start_7 : "**Bʟᴀᴄᴋʟɪsᴛᴇᴅ Cʜᴀᴛ**\n\nYᴏᴜ'ʀᴇ ᴄʜᴀᴛ ʜᴀs ʙᴇᴇɴ ʙʟᴀᴄᴋʟɪsᴛᴇᴅ ʙʏ ᴛʜᴇ Bᴏᴛ. Pʟᴇᴀsᴇ ᴀsᴋ ᴀɴʏ SᴜᴅᴏUsᴇʀ ᴛᴏ ᴡʜɪᴛᴇʟɪsᴛ ᴄʜᴀᴛ ғɪʀsᴛ. Cʜᴇᴄᴋ [Sᴜᴅᴏʟɪsᴛ ғʀᴏᴍ ʜᴇʀᴇ]({0})"
 
 # Help
@@ -197,12 +197,12 @@ tracks_2 : "**Eʀʀᴏʀ**\n\nTʜᴇʀᴇ's ɴᴏ **{0} Tᴏᴘ 10 Pʟᴀʏʟɪs
 #Lyrics
 lyrics_1 : "**Usage:**\n\n/lyrics [ Music Name]"
 lyrics_2 : "Searching Lyrics"
-lyrics_3 : "❌ Failed to fetch lyrics😭.\n\n💡**Tried Searching For:** {0}"
+lyrics_3 : "❌ Failed to fetch lyrics.\n\n💡**Tried Searching For:** {0}"
 lyrics_4 : "Click on the button below and get searched lyrics to avoid long spam types lyrics search."
 
 #Ping
 ping_1 : "Pᴏɴɢ.!"
-ping_2 : "{0}'𝙨 Sᴇʀᴠɪᴄᴇ ᴀɴᴀʟʏsɪs\n\nPɪɴɢ `{1}` ms.\n\nUᴘᴛɪᴍᴇ {2} \n\nSᴛᴏʀᴀɢᴇ usᴇᴅ {3}  \n\nCᴘᴜ ʟᴏᴀᴅ {4} \n\nRᴀᴍ {5} \n\nPʏ-ᴛɢᴄᴀʟʟs ᴘɪɴɢ`{6}` ᴍs."
+ping_2 : "💈 {0}'s Sᴇʀᴠɪᴄᴇ ᴀɴᴀʟʏsɪs\n\n⭕ Pɪɴɢ `{1}` ᴍs.\n\n📡 Uᴘᴛɪᴍᴇ {2} \n\n📁 Sᴛᴏʀᴀɢᴇ usᴇᴅ {3}  \n\n💻 Cᴘᴜ ʟᴏᴀᴅ {4} \n\n💾 Rᴀᴍ {5} \n\n⛱️ Pʏ-ᴛɢᴄᴀʟʟs ᴘɪɴɢ`{6}` ᴍs."
 
 
 # Song
@@ -226,10 +226,10 @@ queue_4 : "⏳ Aᴅᴅᴇᴅ ᴛᴏ Qᴜᴇᴜᴇ ᴀᴛ **#{0}\n\n💡Tɪᴛʟ�
 queue_5 : "Oɴʟʏ ᴏɴᴇ ᴛʀᴀᴄᴋ ɪɴsɪᴅᴇ ᴏ̨ᴜᴇᴜᴇ, Pʟᴇᴀsᴇ ᴀᴅᴅ sᴏᴍᴇ ᴍᴏʀᴇ ᴛᴏ ᴄʜᴇᴄᴋ ʟɪsᴛ"
 
 # All Streaming Lines
-stream_1 : "📡 **Sᴛᴀʀᴛᴇᴅ Sᴛʀᴇᴀᴍɪɴɢ** 💡\n\n👤**Rᴇᴏ̨ᴜᴇsᴛᴇᴅ Bʏ:** {0}\n🔦**Iɴғᴏʀᴍᴀᴛɪᴏɴ: **[Hᴇʀᴇ]({1})"
-stream_2 : "📡 **Sᴛᴀʀᴛᴇᴅ Sᴛʀᴇᴀᴍɪɴɢ ᴠɪᴀ URL ** 💡\n\n👤**Rᴇᴏ̨ᴜᴇsᴛᴇᴅ Bʏ:** {0}"
-stream_3 : "📡 **Sᴛᴀʀᴛᴇᴅ Sᴛʀᴇᴀᴍɪɴɢ** 💡\n\n**🏷Tɪᴛʟᴇ:** {0}\n⌛️**Dᴜʀᴀᴛɪᴏɴ**: {1}\n👤**Rᴇᴏ̨ᴜᴇsᴛᴇᴅ Bʏ:** {2}"
-stream_4 : "📡 **Sᴛᴀʀᴛᴇᴅ Sᴛʀᴇᴀᴍɪɴɢ** 💡\n\n**🏷Tɪᴛʟᴇ:** [{0}]({1})\n⌛️**Dᴜʀᴀᴛɪᴏɴ**: {2}\n👤**Rᴇᴏ̨ᴜᴇsᴛᴇᴅ Bʏ:** {3}"
+stream_1 : "🛰️ **Sᴛᴀʀᴛᴇᴅ Sᴛʀᴇᴀᴍɪɴɢ** 💡\n\n👤**Rᴇᴏ̨ᴜᴇsᴛᴇᴅ Bʏ:** {0}\n🔦**Iɴғᴏʀᴍᴀᴛɪᴏɴ: **[Hᴇʀᴇ]({1})"
+stream_2 : "🛰️ **Sᴛᴀʀᴛᴇᴅ Sᴛʀᴇᴀᴍɪɴɢ ᴠɪᴀ URL ** 💡\n\n👤**Rᴇᴏ̨ᴜᴇsᴛᴇᴅ Bʏ:** {0}"
+stream_3 : "🛰️ **Sᴛᴀʀᴛᴇᴅ Sᴛʀᴇᴀᴍɪɴɢ** 💡\n\n**🏷Tɪᴛʟᴇ:** {0}\n⌛️**Dᴜʀᴀᴛɪᴏɴ**: {1}\n👤**Rᴇᴏ̨ᴜᴇsᴛᴇᴅ Bʏ:** {2}"
+stream_4 : "🛰️ **Sᴛᴀʀᴛᴇᴅ Sᴛʀᴇᴀᴍɪɴɢ** 💡\n\n**🏷Tɪᴛʟᴇ:** [{0}]({1})\n⌛️**Dᴜʀᴀᴛɪᴏɴ**: {2}\n👤**Rᴇᴏ̨ᴜᴇsᴛᴇᴅ Bʏ:** {3}"
 
 # Inline Buttons
 
