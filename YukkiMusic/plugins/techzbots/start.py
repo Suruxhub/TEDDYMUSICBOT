@@ -10,7 +10,7 @@ async def start_menu_private(message):
     text = START_TEXT.replace("MENTION",mention)
     try:
         if "help" in message.text:
-            await message.reply_photo(photo=THUMBNAIL,caption="**Choose Basic Command to get Basic Bot Commands\nAnd Advanved Command to get Advanved Bot Commands.**",reply_markup=COMMAND_MENU_BUTTON,parse_mode="markdown")
+            await message.reply_photo(photo=THUMBNAIL,caption="**Cʜᴏᴏsᴇ Bᴀsɪᴄ Cᴏᴍᴍᴀɴᴅ ᴛᴏ ɢᴇᴛ Bᴀsɪᴄ Bᴏᴛ Cᴏᴍᴍᴀɴᴅs\nAɴᴅ Aᴅᴠᴀɴᴠᴇᴅ Cᴏᴍᴍᴀɴᴅ ᴛᴏ ɢᴇᴛ Aᴅᴠᴀɴᴠᴇᴅ Bᴏᴛ Cᴏᴍᴍᴀɴᴅs.**",reply_markup=COMMAND_MENU_BUTTON,parse_mode="markdown")
         else:
             await message.reply_photo(photo=THUMBNAIL,caption=text,reply_markup=START_BUTTON_PRIVATE,parse_mode="markdown")
     except:
@@ -21,7 +21,7 @@ async def start_menu_group(message):
     text = START_TEXT.replace("MENTION",mention)
     try:
         if "help" in message.text:
-            await message.reply_photo(photo=THUMBNAIL,caption="**Choose Basic Command to get Basic Bot Commands\nAnd Advanved Command to get Advanved Bot Commands.**",reply_markup=COMMAND_MENU_BUTTON,parse_mode="markdown")
+            await message.reply_photo(photo=THUMBNAIL,caption="**Cʜᴏᴏsᴇ Bᴀsɪᴄ Cᴏᴍᴍᴀɴᴅ ᴛᴏ ɢᴇᴛ Bᴀsɪᴄ Bᴏᴛ Cᴏᴍᴍᴀɴᴅs\nAɴᴅ Aᴅᴠᴀɴᴠᴇᴅ Cᴏᴍᴍᴀɴᴅ ᴛᴏ ɢᴇᴛ Aᴅᴠᴀɴᴠᴇᴅ Bᴏᴛ Cᴏᴍᴍᴀɴᴅs.**",reply_markup=COMMAND_MENU_BUTTON,parse_mode="markdown")
         else:
             await message.reply_photo(photo=THUMBNAIL,caption=text,reply_markup=START_BUTTON_GROUP,parse_mode="markdown")
     except:
@@ -112,6 +112,6 @@ async def basic_cmd(_, query):
 async def command_menu(_, query):
     await query.answer()   
     try:
-        await query.message.edit(text="**Choose Basic Command to get Basic Bot Commands\nAnd Advanved Command to get Advanved Bot Commands.**",reply_markup=COMMAND_MENU_BUTTON,parse_mode="markdown")    
+        await query.message.edit(text="**Cʜᴏᴏsᴇ Bᴀsɪᴄ Cᴏᴍᴍᴀɴᴅ ᴛᴏ ɢᴇᴛ Bᴀsɪᴄ Bᴏᴛ Cᴏᴍᴍᴀɴᴅs\nAɴᴅ Aᴅᴠᴀɴᴠᴇᴅ Cᴏᴍᴍᴀɴᴅ ᴛᴏ ɢᴇᴛ Aᴅᴠᴀɴᴠᴇᴅ Bᴏᴛ Cᴏᴍᴍᴀɴᴅs.**",reply_markup=COMMAND_MENU_BUTTON,parse_mode="markdown")    
     except:
         return
