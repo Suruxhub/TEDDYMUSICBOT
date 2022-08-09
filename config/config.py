@@ -21,7 +21,7 @@ API_ID = int(getenv("API_ID", "19352539"))
 API_HASH = getenv("API_HASH", "7304ffb4748a682a116ac9020b14b49c")
 
 ## Get it from @Botfather in Telegram.
-BOT_TOKEN = getenv("BOT_TOKEN", "5597138421:AAEicZuTIKLr8EQiBzmgGZsCJFMjEH9hizg")
+BOT_TOKEN = getenv("BOT_TOKEN", "5551424609:AAEzaX1xWjCLTQlDMNfnvWOpvktynd0zdIA")
 # Database to save your chats and stats... Get MongoDB:-  https://telegra.ph/How-To-get-Mongodb-URI-04-06
 MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://Teddymusicbot:srukumar77#@teddymusicnew.6foywjq.mongodb.net/?retryWrites=true&w=majority")
 
@@ -44,7 +44,7 @@ SONG_DOWNLOAD_DURATION = int(
 LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", "-1001212045298"))
 
 # A name for your Music bot.
-MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "CUTIEPIE ROBOT")
+MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "TEDDY MUSIC")
 
 # Your User ID.
 OWNER_ID = list(
@@ -58,7 +58,7 @@ HEROKU_API_KEY = getenv("HEROKU_API_KEY")
 HEROKU_APP_NAME = getenv("HEROKU_APP_NAME")
 
 # For customized or modified Repository
-UPSTREAM_REPO = "https://github.com/SRUJANSBOT/SOPHIAMUSICTESTREPO"
+UPSTREAM_REPO = "https://github.com/Suruxhub/TEDDYMUSICOP"
 UPSTREAM_BRANCH = "main"
 
 # GIT TOKEN ( if your edited repo is private)
@@ -81,7 +81,7 @@ AUTO_SUGGESTION_TIME = int(
 AUTO_DOWNLOADS_CLEAR = getenv("AUTO_DOWNLOADS_CLEAR", "True")
 
 # Set it True if you want to bot to suggest about bot commands to random chats of your bots.
-AUTO_SUGGESTION_MODE = getenv("AUTO_SUGGESTION_MODE", "False").capitalize()
+AUTO_SUGGESTION_MODE = getenv("AUTO_SUGGESTION_MODE", "True").capitalize()
 
 # Set it true if you want your bot to be private only [You'll need to allow CHAT_ID via /authorise command then only your bot will play music in that chat.]
 PRIVATE_BOT_MODE = getenv("PRIVATE_BOT_MODE", None)
@@ -93,7 +93,7 @@ YOUTUBE_DOWNLOAD_EDIT_SLEEP = int(getenv("YOUTUBE_EDIT_SLEEP", "3"))
 TELEGRAM_DOWNLOAD_EDIT_SLEEP = int(getenv("TELEGRAM_EDIT_SLEEP", "5"))
 
 # Your Github Repo.. Will be shown on /start Command
-GITHUB_REPO = "https://github.com/SRUJANSBOT/SOPHIAMUSICTESTREPO"
+GITHUB_REPO = "https://github.com/Suruxhub/TEDDYMUSICBOT"
 
 # Spotify Client.. Get it from https://developer.spotify.com/dashboard
 SPOTIFY_CLIENT_ID = getenv("SPOTIFY_CLIENT_ID", "817ef3b667ae41fa904568b4eeaee96d")
@@ -110,7 +110,7 @@ PLAYLIST_FETCH_LIMIT = int(getenv("PLAYLIST_FETCH_LIMIT", "50"))
 
 # Cleanmode time after which bot will delete its old messages from chats
 CLEANMODE_DELETE_MINS = int(
-    getenv("CLEANMODE_MINS", "2400")
+    getenv("CLEANMODE_MINS", "50")
 )  # Remember to give value in Seconds
 
 
@@ -128,7 +128,7 @@ TG_VIDEO_FILESIZE_LIMIT = int(
 
 
 # You'll need a Pyrogram String Session for these vars. Generate String from our session generator bot @YukkiStringBot
-STRING1 = getenv("STRING_SESSION", "AQCMwlMrRRNEF3YQSiHYtDqbB0N9LmukoKTAWDdYOIZfKfwDjwt_OGJ01MXAyXLRxGQ0ZitxMirhCin6HQluPXQ_jeuSpa6pE8cA4PQZARO0MrgwY6oWvlDBt2Xa5bsumEHXtZZyX1s1NFElE6DFF0d2J3TdXF_iqFkfmfMFOuu9sbpi48HCRa0q0GxgLcXiyDV8BQoI9yBweFyJhKuSEPAiddFqSf8B6wDHgpUX7P8NkwLIs7dbOUzbvJ4JssY8hlLTarIhnck_GvYkoqTYQHLiOMruG_cltaTkrQ5xnfgDB6fHqd1ZMr6QBelisTGFDCah9TidmGNATHFE3_orvm6WAAAAAUawwD0A")
+STRING1 = getenv("STRING_SESSION", "BQBmhKEvuxWMkRzrnR1EtN7siz7ghBn04GGqCqn7Vk1M5eyWPtJimX_2Kqzk9Xercs6RtjKmhLeGxglM2WKbTuBjq79mkIVpzTWKkby9VUYNqAH7QUXG29hsr61oHDXz07PQv2HrEBGNifoQh1gRRbWvMnOPagpxzEl-xXj7Awg-fTf2raJu5ypUsJvrRlCrUFxP_Rnm-Q8qEj8VmwMNnBPRrstfH5dcncm5LdcJ7fv-_anEWNQVD9JcL3s3pf9f-mJAHebODzgdrNkJCphBOaGbyPUordWKce1KfxSEEcEUd5tmHF878E3fTvh6u197WZ4RkxJG2kWvEY8LJArDSG45AAAAATF1DbYA")
 STRING2 = getenv("STRING_SESSION2", None)
 STRING3 = getenv("STRING_SESSION3", None)
 STRING4 = getenv("STRING_SESSION4", None)
