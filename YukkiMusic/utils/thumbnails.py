@@ -19,6 +19,6 @@ async def gen_thumb(videoid):
                     await f.write(await resp.read()) 
                     await f.close()
 
-        return f"cache/musicapii{videoid}.png"
+        return f"cache/techz{videoid}.png"
     except Exception:
         return YOUTUBE_IMG_URL
