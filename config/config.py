@@ -21,9 +21,9 @@ API_ID = int(getenv("API_ID", "19352539"))
 API_HASH = getenv("API_HASH", "7304ffb4748a682a116ac9020b14b49c")
 
 ## Get it from @Botfather in Telegram.
-BOT_TOKEN = getenv("BOT_TOKEN", "5551424609:AAEzaX1xWjCLTQlDMNfnvWOpvktynd0zdIA")
+BOT_TOKEN = getenv("BOT_TOKEN", "55514")
 # Database to save your chats and stats... Get MongoDB:-  https://telegra.ph/How-To-get-Mongodb-URI-04-06
-MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://Itsmesuru:itsmesuru0@teddymusiccluster.fypmk4y.mongodb.net/?retryWrites=true&w=majority")
+MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://Itsmesuru:itsmesuru0@teddymusicluster.fypmk4y.mongodb.net/?retryWrites=true&w=majority")
 
 if MONGO_DB_URI != None:
     MONGO_DB_URI = MONGO_DB_URI.strip()
@@ -44,7 +44,7 @@ SONG_DOWNLOAD_DURATION = int(
 LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", "-1001298582708"))
 
 # A name for your Music bot.
-MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "TEDDY MUSIC")
+MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "CUTIEPIE MUSIC")
 
 # Your User ID.
 OWNER_ID = list(
@@ -58,11 +58,11 @@ HEROKU_API_KEY = getenv("HEROKU_API_KEY")
 HEROKU_APP_NAME = getenv("HEROKU_APP_NAME")
 
 # For customized or modified Repository
-UPSTREAM_REPO = "https://github.com/Suruxhub/TEDDYMUSICOP"
+UPSTREAM_REPO = "https://github.com/Suruxhub/TEDDYMUSICBOT"
 UPSTREAM_BRANCH = "main"
 
 # GIT TOKEN ( if your edited repo is private)
-GIT_TOKEN = getenv("GIT_TOKEN", "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")
+GIT_TOKEN = getenv("GIT_TOKEN", "ghp_gCokIiKn10l7tt")
 
 # Set it in True if you want to leave your assistant after a certain amount of time. [Set time via AUTO_LEAVE_ASSISTANT_TIME]
 AUTO_LEAVING_ASSISTANT = getenv("AUTO_LEAVING_ASSISTANT", "False").capitalize()
@@ -128,7 +128,7 @@ TG_VIDEO_FILESIZE_LIMIT = int(
 
 
 # You'll need a Pyrogram String Session for these vars. Generate String from our session generator bot @YukkiStringBot
-STRING1 = getenv("STRING_SESSION", "BQCsBgnR844vR9BoqJo9F9REOBdy1K7N5zQVEo3udejWMDl4x8E-pGd3tgsTHZWJn7LzFBKHHjk0iuTbUU9Dp02sAXGWcjwecPEjPo8zce4bkzJuhpcDjpl5UKROOkvWx2IxNkIBXmHUTb32MfYgPSRvVHBNIgZBD4fIyT2oT1rm2yYXu0emA2-pj2LYy_Cp9hByKjR6ecg6tcLvHI_fl8cMecgYGNkAFaUGkuY9Tt9OkkjGaqeQPAC_dFAXtaXejbTh7-o_bJlUfbKbpMcbP9zrPHykBxpiiT-mpajbiinWUySRjEsbDqgCWDva8hQldQUM9pCyev1Zce2KsJgmVjdzAAAAAUqpO00A")
+STRING1 = getenv("STRING_SESSION", "BQCsBgnR844vR9BoqJo9F9REOBdy3tgsTHZWJn7LzFBKHHjk0iuTbUU9Dp02sAXGWcjwecPEjPo8zce4bkzJuhpcDjpl5UKROOkvWx2IxNkIBXmHUTb32MfYgPSRvVHBNIgZBD4fIyT2oT1rm2yYXu0emA2-pj2LYy_Cp9hByKjR6ecg6tcLvHI_fl8cMecgYGNkAFaUGkuY9Tt9OkkjGaqeQPAC_dFAXtaXejbTh7-o_bJlUfbKbpMcbP9zrPHykBxpiiT-mpajbiinWUySRjEsbDqgCWDva8hQldQUM9pCyev1Zce2KsJgmVjdzAAAAAUqpO00A")
 STRING2 = getenv("STRING_SESSION2", None)
 STRING3 = getenv("STRING_SESSION3", None)
 STRING4 = getenv("STRING_SESSION4", None)
